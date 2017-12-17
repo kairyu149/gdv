@@ -1,4 +1,64 @@
-#mapid {
-    height: 600px;
-    width: 800px;
+body{
+    background-color: #F5ECCE
 }
+
+#karte_headline{
+    font-family: verdana;
+    text-align: center;
+    font-size: 30px;
+}
+
+#footer {
+    position: fixed;
+    background-color: #F7F8E0;
+    height: 50px;
+    width: 100%;
+    bottom: 0px;
+}
+
+#footer_text{
+    font-family: verdana;
+    font-size: 13px;
+    text-align: center;
+}
+
+/* NAVIGATION*/
+.navigation {
+    overflow: hidden;
+    background-color: #F7F8E0;
+}
+
+.navigation a{
+    float: left;
+    color: #000000;
+    font-family: verdana;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Farbe bei Hover verändern */
+.navigation a:hover {
+    background-color: #F5DA81;
+}
+
+/* active class, andere Farbe */
+.navigation a.active {
+    background-color: #F7D358;
+}
+/* ENDE NAVIGATION*/
+
+/* KARTEN */
+#map_id1 {
+    height: 850px;
+    width: 1000px;
+    margin: auto;
+}
+
+#map_id2 {
+    height: 850px;
+    width: 1000px;
+    margin: auto;
+}
+/* ENDE KARTEN*/
